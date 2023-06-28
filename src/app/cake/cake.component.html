@@ -1,0 +1,38 @@
+
+<body style="width: 100%;">
+
+  <!--filter bar begins  -->
+
+<div style="background-color: rgb(215, 144, 192); display:flex">
+    
+    <mat-button-toggle-group color="accent"name="favoriteColor" aria-label="Favorite Color" [(ngModel)]="searchInput" style="height:40px;margin-left:30px;">
+    <mat-button-toggle value="cake" (click)="onfilter()"     style="padding-bottom:15px;">Cakes</mat-button-toggle>
+    <mat-button-toggle value="cookies" (click)="onfilter()"  style="padding-bottom:15px;">Cookies</mat-button-toggle>
+    <mat-button-toggle value="brownies" (click)="onfilter()" style="padding-bottom:15px;">Brownies</mat-button-toggle>
+    <mat-button-toggle value="chocolates" (click)="onfilter()" style="padding-bottom:15px;">Chocolates</mat-button-toggle>
+  </mat-button-toggle-group>
+<!--search bar is here -->
+  <app-searxh (searchTextChanged)="onSearchTextChanged($event)"></app-searxh>
+</div>
+  
+  <!--filter bar ends  -->
+
+
+
+  <!--Generate Cards Dynamically -->
+<div style="display: flex;flex-wrap: wrap; z-index:8;background-color:lightpink;text-align: center;">
+<mat-card *ngFor="let value of filteredNotes" style="background-color:white; box-shadow:2px solid black;">
+    <mat-card-header style="height:40px;">{{value.Name}}</mat-card-header>
+    <img mat-card-xl-image src={{value.imageurl}} >
+    <mat-card-content class="raised">{{value.description}}</mat-card-content>
+    <mat-card-footer style="margin-bottom:10px;">
+    {{value.rating}}<img src="../../assets/images/rating.jpg">
+    </mat-card-footer>
+<mat-card-footer>
+    <button mat-raised-button color="disabled"><mat-icon color="accent" style="font-size:large;" aria-disabled="true">attach_money</mat-icon>
+        {{value.price}}</button>
+    <button mat-raised-button color="accent" style="width: fit-content;" (click)="addtocart(value.id)"><mat-icon>shopping_cart</mat-icon></button>
+</mat-card-footer>
+</mat-card>
+</div>
+</body>

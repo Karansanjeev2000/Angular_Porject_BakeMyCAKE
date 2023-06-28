@@ -1,0 +1,127 @@
+
+<div></div><br>
+<h2>Fill The Form to place an order</h2>
+
+<form id="cakeform" class="cakeform" #addForm="ngForm">
+
+   <mat-form-field>
+      <mat-label>Select Date</mat-label>
+      <input matInput [matDatepicker]="picker" required placeholder="First Name" name="dateOfOrder" #dateOfOrder="ngModel" [(ngModel)]="formdata.dateOfOrder">
+      <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+        <div *ngIf="dateOfOrder?.invalid && (dateOfOrder?.dirty || dateOfOrder?.touched)">
+            <mat-error *ngIf="dateOfOrder.errors?.['required']">
+                 Order Delivery date is required
+            </mat-error>
+        </div>
+</mat-form-field>
+
+
+<mat-form-field>
+      <mat-label>Name</mat-label>
+      <input matInput type="text"required placeholder="Name" minlength="3" #Name="ngModel" name="customerName" [(ngModel)]="formdata.customerName">
+      <div *ngIf="Name?.invalid && (Name?.dirty || Name?.touched)">
+         <mat-error *ngIf="Name.errors?.['required']">
+              Name Cannot be Empty
+         </mat-error>
+         <mat-error *ngIf="Name.errors?.['minlength']">
+             Name Minimum Length is{{Name.errors?.['minlength']?.requiredLength}}
+         </mat-error>
+      </div>
+</mat-form-field>
+
+<mat-form-field>
+      <mat-label>Email</mat-label>
+      <input matInput type="email"required placeholder="Email" name="customerEmail" [(ngModel)]="formdata.customerEmail" #email="ngModel" [email]="true">
+      <div *ngIf="email?.invalid && (email?.dirty || email?.touched)">
+         <mat-error *ngIf="email.errors?.['required']">
+              Email cannot be empty or invalid format.
+         </mat-error>
+      </div>
+</mat-form-field>
+
+<mat-form-field>
+      <mat-label>address</mat-label>
+      <textarea matInput rows="1" required placeholder="address" name="address" [(ngModel)]="formdata.address" #address="ngModel" minlength="10">
+      </textarea>
+      <div *ngIf="address?.invalid && (address?.dirty || address?.touched)">
+         <mat-error *ngIf="address.errors?.['required']">
+            address cannot be empty.
+         </mat-error>
+         <mat-error *ngIf="address.errors?.['minlength']">
+           Address Minimum Length is{{address.errors?.['minlength']?.requiredLength}}
+        </mat-error>
+      </div>
+</mat-form-field>
+
+<mat-form-field>
+      <mat-label>Quantity</mat-label>
+      <mat-label>Favorite food</mat-label>
+      <mat-select required placeholder="QTY" name="QTY" [(ngModel)]="formdata.QTY" #QTY="ngModel">
+        <mat-option value="1">1</mat-option>
+        <mat-option value="2">2</mat-option>
+        <mat-option value="3">3</mat-option>
+        <mat-option value="4">4</mat-option>
+        <mat-option value="5">5</mat-option>
+         </mat-select>
+
+      
+      <div *ngIf="QTY?.invalid && (QTY?.dirty || QTY?.touched)">
+         <mat-error *ngIf="QTY.errors?.['required']">
+            Quantity choose at least 1.
+         </mat-error>
+      </div>
+</mat-form-field>
+
+
+   
+
+<mat-form-field>
+      <mat-label>Phone</mat-label>
+      <input matInput type="phone"required placeholder="Phone" name="customerPhone" [(ngModel)]="formdata.customerPhone" minlength="10" maxlength="10" #Phone="ngModel">
+      <div *ngIf="Phone?.invalid && (Phone?.dirty || Phone?.touched)">
+         <mat-error *ngIf="Phone.errors?.['required']">
+            Phone No.Cannot be Empty
+         </mat-error>
+         <mat-error *ngIf="Phone.errors?.['minlength']">
+             Enter phone number of {{Phone.errors?.['minlength']?.requiredLength}} digits
+         </mat-error>
+      </div>
+</mat-form-field>
+
+  <button id="sub" type ="submit" mat-raised-button  color="primary" (click)="makeRequest()" [disabled]="addForm.invalid">Make Request</button>
+</form>
+
+<br>
+<br>
+
+<!-- details of  -->
+
+
+ <div *ngFor="let i of DATA">
+ <mat-grid-list cols="2" rowHeight="2:1">
+   <mat-grid-tile> <img mat-card-image style="height:400px;width:600px;" src={{i.imageurl}} ></mat-grid-tile>
+   <mat-grid-tile> 
+   <mat-card  style="background-color:white; box-shadow:2px solid black;">
+      <mat-card-header style="height:40px;font-size:2.2em;">{{i.Name}}</mat-card-header>
+      <mat-divider></mat-divider>
+      <mat-card-content class="raised">{{i.description}}</mat-card-content>
+      <mat-card-content class="raised" style="font-size:large;"> <img src="../../assets/images/flavor.jpg" width="100px" height="30px">:{{i.falvour}}</mat-card-content>
+      <mat-card-content class="raised"><button mat-raised-button color="disabled"><mat-icon color="accent" style="font-size:large;" aria-disabled="true">attach_money</mat-icon>
+         {{i.price}}</button></mat-card-content>
+      <mat-card-content class="raised" id="cnt" style="text-align:justify;">{{i.dd}}</mat-card-content>
+      <mat-card-footer>
+         <img src="../../assets/images/preservatives.jpg" width="60px" height="60px">
+      </mat-card-footer>
+</mat-card>
+</mat-grid-tile>
+</mat-grid-list>
+
+
+   
+     
+      
+ </div>
+
+

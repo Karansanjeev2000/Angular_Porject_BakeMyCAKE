@@ -1,0 +1,244 @@
+{
+    "alldata":[
+    {
+      "id": "101",
+      "Name": "Chicago cheescake",
+      "imageurl":"assets/images/cheesecake.jpg",
+      "description": "sour cream and fresh berries.\r\n",
+      "rating": 3,
+      "falvour": "cheescake/1kg",
+      "price":25,
+      "category":"cake",
+      "dd":"Luscious vanilla sponge is complemented by a refreshing mango compote, creating a delightful combination. Adorned with pistachio crumbles on all sides, this cake is a true masterpiece. Treat yourself to a slice of pure bliss and experience the enchanting textures and exquisite flavors that make this cake a contemporary delight. Each bite is a moment of refined pleasure, bringing joy to your taste buds. Elevate your dessert experience with this heavenly creation that celebrates the artistry of flavor."
+      
+    },
+    {
+      "id": "102",
+      "Name": "Fruit Cake",
+      "imageurl":"assets/images/Fruit Cake.jpg",
+      "description": "Fresh fruits berries.\r\n",
+      "rating": 3,
+      "falvour": "butterscotch/1kg",
+      "price": 20,
+      "category":"cake",
+      "dd":"Luscious vanilla sponge is complemented by a refreshing mango compote, creating a delightful combination. Adorned with pistachio crumbles on all sides, this cake is a true masterpiece. Treat yourself to a slice of pure bliss and experience the enchanting textures and exquisite flavors that make this cake a contemporary delight. Each bite is a moment of refined pleasure, bringing joy to your taste buds. Elevate your dessert experience with this heavenly creation that celebrates the artistry of flavor."
+
+      
+    },
+    {
+      "id": "103",
+      "Name": "Choco berry Surprise",
+      "imageurl":"assets/images/chocoberry.jpg",
+      "description": "Dark chocolate and berries.\r\n",
+      "rating": 4,
+      "falvour": "chocolate/1kg",
+      "price": 25,
+      "category":"cake",
+      "dd":"Luscious vanilla sponge is complemented by a refreshing mango compote, creating a delightful combination. Adorned with pistachio crumbles on all sides, this cake is a true masterpiece. Treat yourself to a slice of pure bliss and experience the enchanting textures and exquisite flavors that make this cake a contemporary delight. Each bite is a moment of refined pleasure, bringing joy to your taste buds. Elevate your dessert experience with this heavenly creation that celebrates the artistry of flavor."
+
+      
+    },
+    {
+      "id": "104",
+      "Name": "Oreo Fantasy",
+      "imageurl":"assets/images/oreo.jpg",
+      "description": "crushed Oreos & ice cream.\r\n",
+      "rating": 5,
+      "falvour": "cookies and cream/1kg",
+      "price": 15,
+      "category":"cake",
+      "dd":"Luscious vanilla sponge is complemented by a refreshing mango compote, creating a delightful combination. Adorned with pistachio crumbles on all sides, this cake is a true masterpiece. Treat yourself to a slice of pure bliss and experience the enchanting textures and exquisite flavors that make this cake a contemporary delight. Each bite is a moment of refined pleasure, bringing joy to your taste buds. Elevate your dessert experience with this heavenly creation that celebrates the artistry of flavor."
+
+      
+    },
+    {
+      "id":"105",
+      "Name": "Kids Cake",
+      "imageurl":"assets/images/MonsterCake.jpg",
+      "description": "Custom cake for kids .\r\n",
+      "rating": 3,
+      "falvour": "strawberry/1kg",
+      "price": 15,
+      "category":"cake",
+      "dd":"Luscious vanilla sponge is complemented by a refreshing mango compote, creating a delightful combination. Adorned with pistachio crumbles on all sides, this cake is a true masterpiece. Treat yourself to a slice of pure bliss and experience the enchanting textures and exquisite flavors that make this cake a contemporary delight. Each bite is a moment of refined pleasure, bringing joy to your taste buds. Elevate your dessert experience with this heavenly creation that celebrates the artistry of flavor."
+
+      
+    }
+,
+  {
+    "id": "106",
+    "Name": "Butter Cookies",
+    "imageurl":"assets/images/Butter Cookies.jpg",
+    "description": "Made using fresh Homemade Butter.\r\n",
+    "rating": 3,
+    "falvour": "vanilla",
+    "price": 5,
+    "category":"cookies",
+    "dd":"For the upcoming holiday season, grab this lip-smacking hamper of flavoursome cookies for yourself for your loved ones to extend your warm wishes. This hamper is comprised of coconut cookies, corn cookies, choco chip cookies and roasted almond cookies. Place your order now!"
+  },
+  {
+    "id": "107",
+    "Name": "Chocolate Cookies",
+    "imageurl":"assets/images/Chocolate Cookies.jpg",
+    "description": "Jamaican Cacao beans based\r\n",
+    "rating": 3,
+    "falvour": "chocolate",
+    "price": 10,
+    "category":"cookies",
+    "dd":"For the upcoming holiday season, grab this lip-smacking hamper of flavoursome cookies for yourself for your loved ones to extend your warm wishes. This hamper is comprised of coconut cookies, corn cookies, choco chip cookies and roasted almond cookies. Place your order now!"
+
+    
+  },
+  {
+    "id": "108",
+    "Name": "Cream Cookies",
+    "imageurl":"assets/images/Cream Cookies.jpg",
+    "description": "Cream coated and dotted.\r\n",
+    "rating": 4,
+    "falvour": "vanilla and cream",
+    "price": 5,
+    "category":"cookies",
+    "dd":"For the upcoming holiday season, grab this lip-smacking hamper of flavoursome cookies for yourself for your loved ones to extend your warm wishes. This hamper is comprised of coconut cookies, corn cookies, choco chip cookies and roasted almond cookies. Place your order now!"
+
+    
+  },
+  {
+    "id": "109",
+    "Name": "Red Velvet ",
+    "imageurl":"assets/images/Red Velvet Cookies.jpg",
+    "description": "crushed Red Velvet Cake.\r\n",
+    "rating": 5,
+    "falvour": "red velvet",
+    "price": 15,
+    "category":"cookies",
+    "dd":"For the upcoming holiday season, grab this lip-smacking hamper of flavoursome cookies for yourself for your loved ones to extend your warm wishes. This hamper is comprised of coconut cookies, corn cookies, choco chip cookies and roasted almond cookies. Place your order now!"
+
+    
+  },
+  {
+    "id":"110",
+    "Name": "ASSORTED PACK 1",
+    "imageurl":"assets/images/Assorted.jpg",
+    "description": "A box of 10 Cookies .\r\n",
+    "rating": 3,
+    "falvour": "mix of 5 flavours",
+    "price": 35,
+    "category":"cookies",
+    "dd":"For the upcoming holiday season, grab this lip-smacking hamper of flavoursome cookies for yourself for your loved ones to extend your warm wishes. This hamper is comprised of coconut cookies, corn cookies, choco chip cookies and roasted almond cookies. Place your order now!"
+
+    
+  },
+  {
+    "id":"111",
+    "Name": "ASSORTED PACK 2",
+    "imageurl":"assets/images/brownie1.jpg",
+    "description": "A box of 10 brownies .\r\n",
+    "rating": 3,
+    "falvour": "mix of 5 flavours",
+    "price": 35,
+    "category":"brownies",
+    "dd":"  A sight to behold, this enchanted assortment of heavenly brownies will bring a wave of delight and wonderment to senses. Open the door to a world of indulgence with this captivating box, containing an exquisite blend of flavors and textures. Let the Choco Millionaire Brownies cast their spell, as soft buttery caramel dances with a layer of rich dark chocolate truffle and a chocolate brownie base, creating an opulent symphony of decadence."
+  },
+  {
+    "id":"112",
+    "Name": "Chocolate Rush",
+    "imageurl":"assets/images/brownie2.jpg",
+    "description": "High levels of dark cacao .\r\n",
+    "rating": 3,
+    "falvour": "chocolate/box of 3",
+    "price": 15,
+    "category":"brownies",
+    "dd":"  A sight to behold, this enchanted assortment of heavenly brownies will bring a wave of delight and wonderment to senses. Open the door to a world of indulgence with this captivating box, containing an exquisite blend of flavors and textures. Let the Choco Millionaire Brownies cast their spell, as soft buttery caramel dances with a layer of rich dark chocolate truffle and a chocolate brownie base, creating an opulent symphony of decadence."
+  },
+  {
+    "id":"113",
+    "Name": "White Forest",
+    "imageurl":"assets/images/brownie3.jpg",
+    "description": "White chocolate based .\r\n",
+    "rating": 3,
+    "falvour": "white chocolate/box of 3",
+    "price": 15,
+    "category":"brownies",
+    "dd":"  A sight to behold, this enchanted assortment of heavenly brownies will bring a wave of delight and wonderment to senses. Open the door to a world of indulgence with this captivating box, containing an exquisite blend of flavors and textures. Let the Choco Millionaire Brownies cast their spell, as soft buttery caramel dances with a layer of rich dark chocolate truffle and a chocolate brownie base, creating an opulent symphony of decadence."
+  },
+  {
+    "id":"114",
+    "Name": "Strawberry Softy",
+    "imageurl":"assets/images/brownie4.jpg",
+    "description": "strawberries and raisins mixed .\r\n",
+    "rating": 3,
+    "falvour": "strawberry/box of 3",
+    "price": 15,
+    "category":"brownies",
+    "dd":"  A sight to behold, this enchanted assortment of heavenly brownies will bring a wave of delight and wonderment to senses. Open the door to a world of indulgence with this captivating box, containing an exquisite blend of flavors and textures. Let the Choco Millionaire Brownies cast their spell, as soft buttery caramel dances with a layer of rich dark chocolate truffle and a chocolate brownie base, creating an opulent symphony of decadence."
+  },
+  {
+    "id":"115",
+    "Name": "PepperMint Punch",
+    "imageurl":"assets/images/brownie5.jpg",
+    "description": "Peppermint and chocolate .\r\n",
+    "rating": 3,
+    "falvour": "mint/box of 3",
+    "price": 15,
+    "category":"brownies",
+    "dd":"  A sight to behold, this enchanted assortment of heavenly brownies will bring a wave of delight and wonderment to senses. Open the door to a world of indulgence with this captivating box, containing an exquisite blend of flavors and textures. Let the Choco Millionaire Brownies cast their spell, as soft buttery caramel dances with a layer of rich dark chocolate truffle and a chocolate brownie base, creating an opulent symphony of decadence."
+  },
+  {
+    "id":"116",
+    "Name": "Gift BOX",
+    "imageurl":"assets/images/choco1.jpg",
+    "description": "A  gift box .\r\n",
+    "rating": 3,
+    "falvour": "dark chocolates",
+    "price": 15,
+    "category":"chocolates",
+    "dd":"Treat your valentine to a exploded beauty of creamy and velvety chocolate and cast the spell of love. Baked with love and rose swirls, this beauty comes packed in a bomblicious beauty. When lit, it exploded to reveal the deliciousness inside. Order now! Get this delicacy in 250gms/pack."
+  },
+  {
+    "id":"117",
+    "Name": "Home made Chocolates",
+    "imageurl":"assets/images/choco2.jpg",
+    "description": "Hand made LUXURY cocolates .\r\n",
+    "rating": 4,
+    "falvour": "dark chocolates",
+    "price": 15,
+    "category":"chocolates",
+    "dd":"Treat your valentine to a exploded beauty of creamy and velvety chocolate and cast the spell of love. Baked with love and rose swirls, this beauty comes packed in a bomblicious beauty. When lit, it exploded to reveal the deliciousness inside. Order now! Get this delicacy in 250gms/pack."
+  },
+  {
+    "id":"118",
+    "Name":"Choco late Kids",
+    "imageurl":"assets/images/choco3.jpg",
+    "description":"Specially made for kids.\r\n",
+    "rating":4,
+    "falvour": "dark chocolates",
+    "price":20,
+    "category":"chocolates",
+    "dd":"Treat your valentine to a exploded beauty of creamy and velvety chocolate and cast the spell of love. Baked with love and rose swirls, this beauty comes packed in a bomblicious beauty. When lit, it exploded to reveal the deliciousness inside. Order now! Get this delicacy in 250gms/pack."
+  },
+  {
+    "id":"119",
+    "Name":"Imported Chocolates",
+    "imageurl":"assets/images/choco4.jpg",
+    "description": "Get it at wholesale price.\r\n",
+    "rating": 5,
+    "falvour": "vanilla/chocolate",
+    "price":75,
+    "category":"chocolates",
+    "dd":"Treat your valentine to a exploded beauty of creamy and velvety chocolate and cast the spell of love. Baked with love and rose swirls, this beauty comes packed in a bomblicious beauty. When lit, it exploded to reveal the deliciousness inside. Order now! Get this delicacy in 250gms/pack."
+  },
+  {
+    "id":"120",
+    "Name": "Easter Eggs",
+    "imageurl":"assets/images/choco5.jpg",
+    "description": "Seasonal Delicacy available.\r\n",
+    "rating": 3,
+    "falvour": "dark chocolates",
+    "price":50,
+    "category":"chocolates",
+    "dd":"Treat your valentine to a exploded beauty of creamy and velvety chocolate and cast the spell of love. Baked with love and rose swirls, this beauty comes packed in a bomblicious beauty. When lit, it exploded to reveal the deliciousness inside. Order now! Get this delicacy in 250gms/pack."
+  }
+]
+
+
+ }
