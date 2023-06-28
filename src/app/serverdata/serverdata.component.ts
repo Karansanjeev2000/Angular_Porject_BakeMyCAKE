@@ -8,7 +8,7 @@ import { DataserService } from '../service/dataser.service';
   styleUrls: ['./serverdata.component.css']
 })
 export class ServerdataComponent implements OnInit {
-  displayedColumns:string[]=['id','cakeName','Quantity','cakeid','dateOfOrder','customerEmail','customerPhone','customerName','address'];
+  displayedColumns:string[]=['id','cakeName','Quantity','cakeid','dateOfOrder','customerEmail','customerPhone','customerName','address','sumOfOrder'];
   dataarray:CustomerD[]=[];
 
   constructor(private ser:DataserService){}
@@ -16,6 +16,10 @@ export class ServerdataComponent implements OnInit {
   ngOnInit(): void {
    this.inddatahere();
    console.log(this.dataarray);
+  }
+  funchlogout(){
+    this.ser.logout(); //setslogoutvalue=false
+    this.ser.navigateToLoginView();
   }
 
 

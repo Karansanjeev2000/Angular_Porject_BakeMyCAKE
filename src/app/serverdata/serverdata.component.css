@@ -1,4 +1,15 @@
 table {
     background-color:rgb(215, 144, 192);
-    margin-top:40px;
+    margin-top:10px;
+}
+#lgot{
+    margin-left:100px;
+    background-color:gold;
+}
+#pp{
+    margin-left:600px;
+   
+}
+#flo{
+    display:flex;
 }

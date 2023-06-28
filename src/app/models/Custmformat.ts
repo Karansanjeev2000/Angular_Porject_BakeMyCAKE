@@ -8,5 +8,5 @@ export type CustomerD= {
     customerPhone?: string;
     address?:string;
     QTY?:Number;
-    price?:number;
+    pricee?:number;
 }

@@ -1,15 +1,15 @@
 
 <div></div><br>
-<h2>Fill The Form to place an order</h2>
+<h2 style="margin-left: 30px; color:rgba(247, 107, 130, 0.815);">Fill The Form to place an order</h2>
 
 <form id="cakeform" class="cakeform" #addForm="ngForm">
 
-   <mat-form-field>
+<mat-form-field>
       <mat-label>Select Date</mat-label>
-      <input matInput [matDatepicker]="picker" required placeholder="First Name" name="dateOfOrder" #dateOfOrder="ngModel" [(ngModel)]="formdata.dateOfOrder">
+      <input matInput [matDatepicker]="picker" required placeholder="First Name" name="dateOfOrder" #dateOfOrder="ngModel" [(ngModel)]="formdata.dateOfOrder"  [min]="minDate">
       <mat-hint>MM/DD/YYYY</mat-hint>
-        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-        <mat-datepicker #picker></mat-datepicker>
+      <mat-datepicker-toggle matSuffix [for]="picker" minDate="0d"></mat-datepicker-toggle>
+        <mat-datepicker #picker minDate="0d"></mat-datepicker>
         <div *ngIf="dateOfOrder?.invalid && (dateOfOrder?.dirty || dateOfOrder?.touched)">
             <mat-error *ngIf="dateOfOrder.errors?.['required']">
                  Order Delivery date is required
@@ -33,17 +33,20 @@
 
 <mat-form-field>
       <mat-label>Email</mat-label>
-      <input matInput type="email"required placeholder="Email" name="customerEmail" [(ngModel)]="formdata.customerEmail" #email="ngModel" [email]="true">
-      <div *ngIf="email?.invalid && (email?.dirty || email?.touched)">
+      <input matInput type="email" required placeholder="Email" name="customerEmail" [(ngModel)]="formdata.customerEmail" #email="ngModel" [email]="true"  pattern="[a-z]+[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+      <div *ngIf="email?.invalid &&  email?.touched">
          <mat-error *ngIf="email.errors?.['required']">
-              Email cannot be empty or invalid format.
+              Email cannot be empty.
+         </mat-error>
+         <mat-error *ngIf="email.errors?.['pattern']">
+            Email is in invalid formdata.
          </mat-error>
       </div>
 </mat-form-field>
 
 <mat-form-field>
       <mat-label>address</mat-label>
-      <textarea matInput rows="1" required placeholder="address" name="address" [(ngModel)]="formdata.address" #address="ngModel" minlength="10">
+      <textarea matInput rows="1" required placeholder="address" name="address" [(ngModel)]="formdata.address" #address="ngModel" minlength="10" pattern="^[#.0-9a-zA-Z\s,:-]+$">
       </textarea>
       <div *ngIf="address?.invalid && (address?.dirty || address?.touched)">
          <mat-error *ngIf="address.errors?.['required']">
@@ -52,6 +55,10 @@
          <mat-error *ngIf="address.errors?.['minlength']">
            Address Minimum Length is{{address.errors?.['minlength']?.requiredLength}}
         </mat-error>
+        <mat-error *ngIf="address.errors?.['pattern']">
+       Address contains unsupported symbols(@*(%;?)$!^).
+       Please follow valid format
+      </mat-error>
       </div>
 </mat-form-field>
 
@@ -79,13 +86,16 @@
 
 <mat-form-field>
       <mat-label>Phone</mat-label>
-      <input matInput type="phone"required placeholder="Phone" name="customerPhone" [(ngModel)]="formdata.customerPhone" minlength="10" maxlength="10" #Phone="ngModel">
+      <input matInput type="phone"required placeholder="Phone" name="customerPhone" [(ngModel)]="formdata.customerPhone" minlength="10" maxlength="10" #Phone="ngModel" pattern="^[7-9][0-9]{9}$">
       <div *ngIf="Phone?.invalid && (Phone?.dirty || Phone?.touched)">
          <mat-error *ngIf="Phone.errors?.['required']">
             Phone No.Cannot be Empty
          </mat-error>
          <mat-error *ngIf="Phone.errors?.['minlength']">
              Enter phone number of {{Phone.errors?.['minlength']?.requiredLength}} digits
+         </mat-error>
+         <mat-error *ngIf="Phone.errors?.['pattern']">
+            Pleas enter valid (+91) Phone Number.
          </mat-error>
       </div>
 </mat-form-field>

@@ -1,4 +1,8 @@
-
+<br>
+<div id="flo">
+<h1 id="pp">All Orders saved to Server</h1>
+<button mat-raised-button id="lgot" (click)="funchlogout()">LOGOUT</button>
+</div>
 <table mat-table [dataSource]="dataarray"  class="mat-elevation-z8" color="accent">
 
     
@@ -45,6 +49,11 @@
       <ng-container matColumnDef="address">
         <th mat-header-cell *matHeaderCellDef>CUST_address</th>
         <td mat-cell *matCellDef="let element">{{element.address}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="sumOfOrder">
+        <th mat-header-cell *matHeaderCellDef>sumOfOrder</th>
+        <td mat-cell *matCellDef="let element">${{element.pricee}} </td>
       </ng-container>
 
      

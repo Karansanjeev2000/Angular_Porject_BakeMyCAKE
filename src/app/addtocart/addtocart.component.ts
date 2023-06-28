@@ -12,7 +12,7 @@ import { CustomerD } from '../models/Custmformat';
   styleUrls: ['./addtocart.component.css']
 })
 export class AddtocartComponent implements OnInit {
-
+  minDate = new Date(); // for setting till current date
   post:any;
   data?:Bake;
 
@@ -53,10 +53,13 @@ makeRequest() {
     if (this.formdata.customerName && this.formdata.customerEmail && this.formdata.customerPhone && this.formdata.dateOfOrder &&this.formdata.address && this.formdata.QTY ) {
         this.formdata.cakeName=this.DATA[0].Name;
         this.formdata.cakeid=this.DATA[0].id;
+        const quan:any=this.formdata?.QTY;
+        const rate:any=this.DATA[0]?.price;
+        this.formdata.pricee=quan*rate;
         this.ser.saveData(this.formdata).subscribe({
         next: data => {
             this.snackBar.open("Order Request Submitted-ReOrder for more...","", {
-            duration:3000
+            duration:5000
             });
             this.submitStatus=true;
                             

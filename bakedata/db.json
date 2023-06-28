@@ -18,7 +18,7 @@
       "imageurl":"assets/images/Fruit Cake.jpg",
       "description": "Fresh fruits berries.\r\n",
       "rating": 3,
-      "falvour": "butterscotch/1kg",
+      "falvour": "butterscotch/ portion size:1kg",
       "price": 20,
       "category":"cake",
       "dd":"Luscious vanilla sponge is complemented by a refreshing mango compote, creating a delightful combination. Adorned with pistachio crumbles on all sides, this cake is a true masterpiece. Treat yourself to a slice of pure bliss and experience the enchanting textures and exquisite flavors that make this cake a contemporary delight. Each bite is a moment of refined pleasure, bringing joy to your taste buds. Elevate your dessert experience with this heavenly creation that celebrates the artistry of flavor."
@@ -31,10 +31,10 @@
       "imageurl":"assets/images/chocoberry.jpg",
       "description": "Dark chocolate and berries.\r\n",
       "rating": 4,
-      "falvour": "chocolate/1kg",
+      "falvour": "chocolate/ portion size:1kg",
       "price": 25,
       "category":"cake",
-      "dd":"Luscious vanilla sponge is complemented by a refreshing mango compote, creating a delightful combination. Adorned with pistachio crumbles on all sides, this cake is a true masterpiece. Treat yourself to a slice of pure bliss and experience the enchanting textures and exquisite flavors that make this cake a contemporary delight. Each bite is a moment of refined pleasure, bringing joy to your taste buds. Elevate your dessert experience with this heavenly creation that celebrates the artistry of flavor."
+      "dd":"Luscious vanilla sponge is complemented by a refreshing berry compote, creating a delightful combination. Adorned with pistachio crumbles on all sides, this cake is a true masterpiece. Treat yourself to a slice of pure bliss and experience the enchanting textures and exquisite flavors that make this cake a contemporary delight. Each bite is a moment of refined pleasure, bringing joy to your taste buds. Elevate your dessert experience with this heavenly creation that celebrates the artistry of flavor."
 
       
     },
@@ -44,10 +44,10 @@
       "imageurl":"assets/images/oreo.jpg",
       "description": "crushed Oreos & ice cream.\r\n",
       "rating": 5,
-      "falvour": "cookies and cream/1kg",
+      "falvour": "cookies and cream/ portion size:1kg",
       "price": 15,
       "category":"cake",
-      "dd":"Luscious vanilla sponge is complemented by a refreshing mango compote, creating a delightful combination. Adorned with pistachio crumbles on all sides, this cake is a true masterpiece. Treat yourself to a slice of pure bliss and experience the enchanting textures and exquisite flavors that make this cake a contemporary delight. Each bite is a moment of refined pleasure, bringing joy to your taste buds. Elevate your dessert experience with this heavenly creation that celebrates the artistry of flavor."
+      "dd":"Luscious vanilla sponge is complemented by a refreshing vanilla compote, creating a delightful combination. Adorned with pistachio crumbles on all sides, this cake is a true masterpiece. Treat yourself to a slice of pure bliss and experience the enchanting textures and exquisite flavors that make this cake a contemporary delight. Each bite is a moment of refined pleasure, bringing joy to your taste buds. Elevate your dessert experience with this heavenly creation that celebrates the artistry of flavor."
 
       
     },
@@ -57,10 +57,10 @@
       "imageurl":"assets/images/MonsterCake.jpg",
       "description": "Custom cake for kids .\r\n",
       "rating": 3,
-      "falvour": "strawberry/1kg",
+      "falvour": "strawberry/ portion size:1kg",
       "price": 15,
       "category":"cake",
-      "dd":"Luscious vanilla sponge is complemented by a refreshing mango compote, creating a delightful combination. Adorned with pistachio crumbles on all sides, this cake is a true masterpiece. Treat yourself to a slice of pure bliss and experience the enchanting textures and exquisite flavors that make this cake a contemporary delight. Each bite is a moment of refined pleasure, bringing joy to your taste buds. Elevate your dessert experience with this heavenly creation that celebrates the artistry of flavor."
+      "dd":"Luscious vanilla sponge is complemented by a refreshing strawberry compote, creating a delightful combination. Adorned with pistachio crumbles on all sides, this cake is a true masterpiece. Treat yourself to a slice of pure bliss and experience the enchanting textures and exquisite flavors that make this cake a contemporary delight. Each bite is a moment of refined pleasure, bringing joy to your taste buds. Elevate your dessert experience with this heavenly creation that celebrates the artistry of flavor."
 
       
     }
@@ -71,7 +71,7 @@
     "imageurl":"assets/images/Butter Cookies.jpg",
     "description": "Made using fresh Homemade Butter.\r\n",
     "rating": 3,
-    "falvour": "vanilla",
+    "falvour": "vanilla/ Box of 5",
     "price": 5,
     "category":"cookies",
     "dd":"For the upcoming holiday season, grab this lip-smacking hamper of flavoursome cookies for yourself for your loved ones to extend your warm wishes. This hamper is comprised of coconut cookies, corn cookies, choco chip cookies and roasted almond cookies. Place your order now!"
@@ -82,7 +82,7 @@
     "imageurl":"assets/images/Chocolate Cookies.jpg",
     "description": "Jamaican Cacao beans based\r\n",
     "rating": 3,
-    "falvour": "chocolate",
+    "falvour": "chocolate/ Box of 5",
     "price": 10,
     "category":"cookies",
     "dd":"For the upcoming holiday season, grab this lip-smacking hamper of flavoursome cookies for yourself for your loved ones to extend your warm wishes. This hamper is comprised of coconut cookies, corn cookies, choco chip cookies and roasted almond cookies. Place your order now!"
@@ -95,8 +95,8 @@
     "imageurl":"assets/images/Cream Cookies.jpg",
     "description": "Cream coated and dotted.\r\n",
     "rating": 4,
-    "falvour": "vanilla and cream",
-    "price": 5,
+    "falvour": "vanilla and cream/ Box of 5",
+    "price": 15,
     "category":"cookies",
     "dd":"For the upcoming holiday season, grab this lip-smacking hamper of flavoursome cookies for yourself for your loved ones to extend your warm wishes. This hamper is comprised of coconut cookies, corn cookies, choco chip cookies and roasted almond cookies. Place your order now!"
 
@@ -108,7 +108,7 @@
     "imageurl":"assets/images/Red Velvet Cookies.jpg",
     "description": "crushed Red Velvet Cake.\r\n",
     "rating": 5,
-    "falvour": "red velvet",
+    "falvour": "red velvet/ Box of 5",
     "price": 15,
     "category":"cookies",
     "dd":"For the upcoming holiday season, grab this lip-smacking hamper of flavoursome cookies for yourself for your loved ones to extend your warm wishes. This hamper is comprised of coconut cookies, corn cookies, choco chip cookies and roasted almond cookies. Place your order now!"
@@ -146,7 +146,7 @@
     "description": "High levels of dark cacao .\r\n",
     "rating": 3,
     "falvour": "chocolate/box of 3",
-    "price": 15,
+    "price": 20,
     "category":"brownies",
     "dd":"  A sight to behold, this enchanted assortment of heavenly brownies will bring a wave of delight and wonderment to senses. Open the door to a world of indulgence with this captivating box, containing an exquisite blend of flavors and textures. Let the Choco Millionaire Brownies cast their spell, as soft buttery caramel dances with a layer of rich dark chocolate truffle and a chocolate brownie base, creating an opulent symphony of decadence."
   },
@@ -157,7 +157,7 @@
     "description": "White chocolate based .\r\n",
     "rating": 3,
     "falvour": "white chocolate/box of 3",
-    "price": 15,
+    "price": 20,
     "category":"brownies",
     "dd":"  A sight to behold, this enchanted assortment of heavenly brownies will bring a wave of delight and wonderment to senses. Open the door to a world of indulgence with this captivating box, containing an exquisite blend of flavors and textures. Let the Choco Millionaire Brownies cast their spell, as soft buttery caramel dances with a layer of rich dark chocolate truffle and a chocolate brownie base, creating an opulent symphony of decadence."
   },
@@ -168,7 +168,7 @@
     "description": "strawberries and raisins mixed .\r\n",
     "rating": 3,
     "falvour": "strawberry/box of 3",
-    "price": 15,
+    "price": 20,
     "category":"brownies",
     "dd":"  A sight to behold, this enchanted assortment of heavenly brownies will bring a wave of delight and wonderment to senses. Open the door to a world of indulgence with this captivating box, containing an exquisite blend of flavors and textures. Let the Choco Millionaire Brownies cast their spell, as soft buttery caramel dances with a layer of rich dark chocolate truffle and a chocolate brownie base, creating an opulent symphony of decadence."
   },
@@ -189,10 +189,10 @@
     "imageurl":"assets/images/choco1.jpg",
     "description": "A  gift box .\r\n",
     "rating": 3,
-    "falvour": "dark chocolates",
-    "price": 15,
+    "falvour": "dark chocolates/ box of 50 pieces ",
+    "price": 25,
     "category":"chocolates",
-    "dd":"Treat your valentine to a exploded beauty of creamy and velvety chocolate and cast the spell of love. Baked with love and rose swirls, this beauty comes packed in a bomblicious beauty. When lit, it exploded to reveal the deliciousness inside. Order now! Get this delicacy in 250gms/pack."
+    "dd":"Treat your loved one to a exploded beauty of creamy and velvety chocolate and cast the spell of love. Baked with love and rose swirls, this beauty comes packed in a bomblicious beauty. When lit, it exploded to reveal the deliciousness inside. Order now! Get this delicacy in 250gms/pack."
   },
   {
     "id":"117",
@@ -200,7 +200,7 @@
     "imageurl":"assets/images/choco2.jpg",
     "description": "Hand made LUXURY cocolates .\r\n",
     "rating": 4,
-    "falvour": "dark chocolates",
+    "falvour": "dark chocolates/box of 50 pieces ",
     "price": 15,
     "category":"chocolates",
     "dd":"Treat your valentine to a exploded beauty of creamy and velvety chocolate and cast the spell of love. Baked with love and rose swirls, this beauty comes packed in a bomblicious beauty. When lit, it exploded to reveal the deliciousness inside. Order now! Get this delicacy in 250gms/pack."
@@ -211,7 +211,7 @@
     "imageurl":"assets/images/choco3.jpg",
     "description":"Specially made for kids.\r\n",
     "rating":4,
-    "falvour": "dark chocolates",
+    "falvour": "dark chocolates/box of 50 pieces ",
     "price":20,
     "category":"chocolates",
     "dd":"Treat your valentine to a exploded beauty of creamy and velvety chocolate and cast the spell of love. Baked with love and rose swirls, this beauty comes packed in a bomblicious beauty. When lit, it exploded to reveal the deliciousness inside. Order now! Get this delicacy in 250gms/pack."
@@ -222,7 +222,7 @@
     "imageurl":"assets/images/choco4.jpg",
     "description": "Get it at wholesale price.\r\n",
     "rating": 5,
-    "falvour": "vanilla/chocolate",
+    "falvour": "vanilla/chocolate box of 50 pieces ",
     "price":75,
     "category":"chocolates",
     "dd":"Treat your valentine to a exploded beauty of creamy and velvety chocolate and cast the spell of love. Baked with love and rose swirls, this beauty comes packed in a bomblicious beauty. When lit, it exploded to reveal the deliciousness inside. Order now! Get this delicacy in 250gms/pack."
@@ -233,7 +233,7 @@
     "imageurl":"assets/images/choco5.jpg",
     "description": "Seasonal Delicacy available.\r\n",
     "rating": 3,
-    "falvour": "dark chocolates",
+    "falvour": "dark chocolates box of 50 pieces ",
     "price":50,
     "category":"chocolates",
     "dd":"Treat your valentine to a exploded beauty of creamy and velvety chocolate and cast the spell of love. Baked with love and rose swirls, this beauty comes packed in a bomblicious beauty. When lit, it exploded to reveal the deliciousness inside. Order now! Get this delicacy in 250gms/pack."
